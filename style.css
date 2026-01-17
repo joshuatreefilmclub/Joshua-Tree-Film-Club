@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body {
+  background-color: #F2DAB0;
+  color: #8B4A1D;
+  font-family: 'Special Elite', monospace;
+  text-align: center;
+  margin: 0;
+  cursor: url('https://cur.cursors-4u.net/nature/nat-6/nat545.cur'), auto;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  border: 3px ridge #C4752C;
+  background: #F2DAB0;
+  box-shadow: 0 0 15px rgba(139, 74, 29, 0.3);
+  padding: 20px;
+}
+
+header {
+  border-bottom: 2px dashed #000000;
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #000000;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-size: 13px;
+  color: #A56E38;
+}
+
+nav a {
+  color: #8B4A1D;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+nav a:hover {
+  color: #C4752C;
+  text-decoration: underline;
+}
+
+.marquee {
+  margin-top: 10px;
+  color: #8B4A1D;
+  font-size: 13px;
+  background: #EFCF9F;
+  padding: 5px;
+  border-top: 2px solid #C4752C;
+  border-bottom: 2px solid #C4752C;
+}
+
+.intro {
+  margin: 20px auto;
+  background: #EFCF9F;
+  padding: 15px;
+  border: 2px groove #C4752C;
+  font-size: 14px;
+}
+
+.intro h2 {
+  color: #C4752C;
+}
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.review {
+  background: #FAEBCF;
+  border: 3px inset #C4752C;
+  padding: 10px;
+  width: 260px;
+  box-shadow: 0 0 10px rgba(139, 74, 29, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.review:hover {
+  transform: scale(1.05);
+}
+
+.review img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border: 2px solid #C4752C;
+}
+
+.review h3 {
+  color: #C4752C;
+  margin-top: 10px;
+}
+
+.stars {
+  color: #A56E38;
+  font-size: 14px;
+}
+
+.tag {
+  background: #C4752C;
+  color: #F2DAB0;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+footer {
+  border-top: 2px dashed #C4752C;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #8B4A1D;
+}
+
+blink {
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+.review-btn {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #C4752C;
+  color: #F2DAB0;
+  font-family: 'Special Elite', monospace;
+  border: 2px solid #8B4A1D;
+  padding: 6px 12px;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  box-shadow: 2px 2px 0 #8B4A1D;
+}
+
+.review-btn:hover {
+  background-color: #8B4A1D;
+  color: #F2DAB0;
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0 #C4752C;
+}
+
+.review-btn:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0 #8B4A1D;
+}
+.site-header {
+  background-color: #C4752C;
+  border-bottom: 4px solid #8B4A1D;
+  padding: 12px 0;
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.header-left h1 {
+  font-size: 1.8rem;
+  color: #F2DAB0;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.header-logo img {
+  height: 375px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.header-right {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-link {
+  color: #F2DAB0;
+  text-decoration: none;
+  font-size: 1rem;
+  border: 2px solid #8B4A1D;
+  padding: 4px 10px;
+  border-radius: 3px;
+  background-color: #8B4A1D;
+  transition: all 0.2s ease;
+  box-shadow: 2px 2px 0 #4B2E05;
+}
+
+.nav-link:hover {
+  background-color: #C4752C;
+  color: #4B2E05;
+  box-shadow: 3px 3px 0 #8B4A1D;
+}
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+

@@ -1,0 +1,93 @@
+body {
+  font-family: Georgia, serif;
+  background-color: #f9f2e5;
+  color: #2b2b2b;
+  margin: 0;
+  padding: 40px;
+  line-height: 1.6;
+}
+
+.review-container {
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+  background-color: #f3e9d4;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.poster-section {
+  width: 30%;
+  padding-right: 20px;
+  border-right: 2px solid #cbb994;
+}
+
+.poster {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.recommend {
+  font-size: 0.95rem;
+}
+
+.review-text {
+  width: 70%;
+  padding-left: 20px;
+}
+
+.review-text h2 {
+  font-size: 1.6rem;
+  color: #5a2a2a;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.rating {
+  font-weight: bold;
+  color: #7a3a3a;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #4a2e00;
+}
+
+em {
+  color: #803b3b;
+}
+.review-btn {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #C4752C;
+  color: #F2DAB0;
+  font-family: 'Special Elite', monospace;
+  border: 2px solid #8B4A1D;
+  padding: 6px 12px;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  box-shadow: 2px 2px 0 #8B4A1D;
+}
+
+.review-btn:hover {
+  background-color: #8B4A1D;
+  color: #F2DAB0;
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0 #C4752C;
+}
+
+.review-btn:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0 #8B4A1D;
+}
+
