@@ -1,41 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-    <meta charset="UTF-8">
-    <title>Movie Suggestion</title>
-    <script src="script.js" defer></script>
-    <link rel="stylesheet" href="styles.css">
+<head>
+  <meta charset="UTF-8">
+  <title>Joshua Tree Film Club</title>
+  <link rel="stylesheet" href="style.css">
+ <link href="https://fonts.googleapis.com/css2?family=Special+Elite&amp;display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
-<h1>Movie Suggestion Generator</h1>
+  <div class="container">
+      <div class="header-logo">
+      <img src="Joshua Tree Film Club Logo 1.png" alt="Joshua Tree Logo">
+    </div>
+    <header>
+      <p class="subtitle">est. 2025 · film reviews</p>
+      <marquee scrollamount="4" class="marquee">film reviews release weekly</marquee>
+    </header>
 
-<div class="genre-container">
-    <input type="radio" name="genre" id="comedy" value="Comedy"/>
-    <label for="comedy">Comedy</label>
-    <input type="radio" name="genre" id="horror" value="Horror"/>
-    <label for="horror">Horror</label>
-    <input type="radio" name="genre" id="romance" value="Romance"/>
-    <label for="romance">Romance</label>
-    <input type="radio" name="genre" id="action" value="Action"/>
-    <label for="action">Action</label>
-    <input type="radio" name="genre" id="animated" value="Animated"/>
-    <label for="animated">Animated</label>
-    <input type="radio" name="genre" id="western" value="Western"/>
-    <label for="western">Western</label>
-    <input type="radio" name="genre" id="fantasy" value="Fantasy"/>
-    <label for="fantasy">Fantasy</label>
-    <input type="radio" name="genre" id="mystery" value="Mystery"/>
-    <label for="mystery">Mystery</label>
-    <input type="radio" name="genre" id="war" value="War"/>
-    <label for="war">War</label>
-    <input type="radio" name="genre" id="history" value="History"/>
-    <label for="history">History</label>
-</div>
+    <div class="intro">
+      <h2>Welcome to Joshua Tree Film Club</h2>
+      <br>
+      <p>This is a film review website curated by a film lover. The goal of this website is to ameliorate writing style, learn about journalism, and give insightful reviews on films.</p>
+    </div>
 
-<button id="genBtn">Generate Movie</button>
-<button id="randomBtn">Random Movie From Any Genre</button>
+    <section>
+      <div class="review">
+        <img src="https://a.ltrbxd.com/resized/sm/upload/0v/a7/ib/7t/wB58wlBAr6484Wm6VyFDqSD8VOJ-0-1000-0-1500-crop.jpg?v=70996dc2b3"  alt="Frankenstein">
+        <h3>Frankenstein</h3>
+        <p>James Whale · 1931</p>
+        <p class="stars"> ★★★★★</p>
+        <span class="tag">Horror/Classic</span><br>
+        <a href="frankenstein.html" class="review-btn">Read Full Review</a>
+      </div>
+            <div class="review">
+        <img src="https://a.ltrbxd.com/resized/film-poster/5/1/9/1/3/51913-dracula-0-1000-0-1500-crop.jpg?v=a27a82cffc"  alt="Dracula">
+        <h3>Dracula</h3>
+        <p>Tod Browning · 1931</p>
+        <p class="stars"> ★★★</p>
+        <span class="tag">Horror/Classic</span><br>
+        <a href="dracula.html" class="review-btn">Read Full Review</a>
+      </div>
+      <div class="review">
+        <img src="https://a.ltrbxd.com/resized/film-poster/5/1/2/9/6/51296-who-framed-roger-rabbit-0-2000-0-3000-crop.jpg?v=3f0b3cec6d" alt="Who Framed Roger Rabbit">
+        <h3>Who Framed Roger Rabbit</h3>
+        <p>Robert Zemeckis · 1988</p>
+        <p class="stars"> ★★★⯪☆</p>
+        <span class="tag">Animation/Crime</span><br>
+        <a href="whoframedrogerrabbit.html" class="review-btn">Read Full Review</a>
+      </div>
+      <div class="review">
+        <img src="https://a.ltrbxd.com/resized/film-poster/9/2/6/1/9/92619-the-secret-life-of-walter-mitty-0-1000-0-1500-crop.jpg?v=990770ac1c" alt="The Secret Life of Walter Mitty">
+        <h3>The Secret Life of Walter Mitty</h3>
+        <p>Ben Stiller · 2013</p>
+        <p class="stars"> ★★★★⯪</p>
+        <span class="tag">Comedy/Adventure</span><br>
+        <a href="secretlifeofwaltermitty.html" class="review-btn">Read Full Review</a>
+      </div>
+      <div class="review">
+        <img src="https://a.ltrbxd.com/resized/film-poster/5/1/8/4/6/51846-dead-poets-society-0-1000-0-1500-crop.jpg?v=9273e8acf7" alt="Dead Poets Society">
+        <h3>Dead Poets Society</h3>
+        <p>Peter Weir · 1989</p>
+        <p class="stars"> ★ ★ ★ ★ ★</p>
+        <span class="tag">Drama/Emotional</span><br>
+        <a href="deadpoet.html" class="review-btn">Read Full Review</a>
+      </div>
+      <div class="review">
+        <img src="https://a.ltrbxd.com/resized/film-poster/2/6/9/3/5/8/269358-loving-vincent-0-2000-0-3000-crop.jpg?v=a66298b3b4
+" alt="Loving Vincent">
+        <h3>Loving Vincent</h3>
+        <p>Hugh Welchman, DK Welchman · 2017</p>
+        <p class="stars"> ★ ★ ★ ★ ★</p>
+        <span class="tag">Art/Emotional</span><br>
+        <a href="lovingvincent.html" class="review-btn">Read Full Review</a>
+      </div>
+            <div class="review">
+        <img src="https://a.ltrbxd.com/resized/film-poster/5/1/5/5/5/51555-starship-troopers-0-2000-0-3000-crop.jpg?v=dd7022caf2
+" alt="Starship Troopers">
+        <h3>Starship Troopers</h3>
+        <p>Paul Verhoeven · 1997</p>
+        <p class="stars"> ★ ★ ★ ★ ★</p>
+        <span class="tag">Science Fiction/Action</span><br>
+        <a href="starshiptroopers.html" class="review-btn">Read Full Review</a>
+      </div>
+      <div class="review">
+        <img src="https://a.ltrbxd.com/resized/sm/upload/fn/rr/3z/h7/i8gEHh2sszB6YWLC0jl559sxAeN-0-2000-0-3000-crop.jpg?v=593192fedf
+" alt="Clueless">
+        <h3>Clueless</h3>
+        <p>Amy Heckerling · 1995</p>
+        <p class="stars"> ★★★☆☆</p>
+        <span class="tag">Teen/Comedy</span><br>
+        <a href="clueless.html" class="review-btn">Read Full Review</a>
+      </div>
 
-<p id="text"></p>
+      <div class="review">
+        <img src="https://a.ltrbxd.com/resized/film-poster/5/4/3/9/6/7/543967-the-fantastic-four-first-steps-0-2000-0-3000-crop.jpg?v=ab7c919b04
+" alt="Fantatic Four">
+        <h3>The Fantastic 4: First Steps</h3>
+        <p>Matt Shakman · 2025</p>
+        <p class="stars"> ★ ★ ★ ★ ★</p>
+        <span class="tag">Superhero/Comedy</span><br>
+        <a href="fantasticfourfirststeps.html" class="review-btn">Read Full Review</a>
+      </div>
+      <div class="review">
+        <img src="https://upload.wikimedia.org/wikipedia/en/b/b1/Groundhog_Day_%28movie_poster%29.jpg" alt="Groundhog Day">
+        <h3>Groundhog Day</h3>
+        <p>Harold Ramis · 1993</p>
+        <p class="stars"> ★★★★☆</p>
+        <span class="tag">Fantasy/Comedy</span><br>
+        <a href="groundhogday.html" class="review-btn">Read Full Review</a>
+      </div>
+    </section>
 
+    <footer>
+      <p>© 2025 Joshua Tree Film Club</p>
+    </footer>
+  </div>
 </body>
 </html>
+
+
+
+
